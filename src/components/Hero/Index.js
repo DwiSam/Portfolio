@@ -13,9 +13,8 @@ const Hero = () => {
           <p style={{ fontSize: "1.25rem" }}>Hello, there</p>
           <p className="name">I am Dwi Samsiarto</p>
           <p className="h-info">
-            I am an undergraduate student in Institut Teknologi PLN - Jakarta I
-            <br />
-            have a strong interest in UI/UX and Front End Developer
+            I am an undergraduate student in Institut Teknologi PLN - Jakarta
+            <br />I have a strong interest in UI/UX and Front End Developer
           </p>
           <button>Download CV</button>
         </div>
@@ -24,9 +23,9 @@ const Hero = () => {
             href="https://github.com/DwiSam"
             target="_blank"
             rel="noreferrer"
-            style={{ padding: "15px" }}
+            style={{ padding: "5px" }}
           >
-            <img src={github} alt="github" height={40} width={40} />
+            <img src={github} alt="github" height={70} width={70} />
           </a>
           <a
             href="https://www.linkedin.com/in/dwi-sam/"
@@ -34,27 +33,19 @@ const Hero = () => {
             rel="noreferrer"
             style={{ padding: "5px" }}
           >
-            <img src={linkedin} alt="linkedin" height={60} width={60} />
+            <img src={linkedin} alt="linkedin" height={70} width={70} />
           </a>
-          <a href="https://t.me/Doeysam" target="_blank" rel="noreferrer">
-            <img src={telegram} alt="telegram" height={70} width={70} />
+          <a
+            href="https://t.me/Doeysam"
+            target="_blank"
+            rel="noreferrer"
+            style={{ padding: "5px" }}
+          >
+            <img src={telegram} alt="telegram" height={64} width={64} />
           </a>
         </div>
       </div>
       <div className="h-right">
-        <div className="h-shape">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            viewBox="0 0 725 990"
-          >
-            <path
-              fill="#1b1f3a"
-              stroke="#1b1f3a"
-              d="M209.5 0H725v934.5L8 218.5q-3.5-4-2-13l2-4L209.5 0z"
-            ></path>
-          </svg>
-        </div>
         <div className="h-box">
           <div>
             <img src={pp} alt="pp" height={400} width={400} />

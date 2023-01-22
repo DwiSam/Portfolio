@@ -27,8 +27,8 @@
   align-items: center;
   text-align: center;
   height: 220px;
-  width: 250px;
-  background-color: var(--dgray);
+  width: 330px;
+  background-color: #0a0c39;
   padding: 20px 20px;
   border-radius: 15px;
   cursor: pointer;
@@ -38,7 +38,7 @@
 .in-card .card-title {
   font-size: 2rem;
   font-weight: bold;
-  color: var(--yellow);
+  color: #b1aafe;
 }
 
 .in-card .card-text {
@@ -55,7 +55,7 @@
   height: 5rem;
   width: 5rem;
   border-radius: 50%;
-  background: linear-gradient(90deg, var(--dorange) 40%, var(--gray) 60%);
+  background: linear-gradient(90deg, #1479f2 40%, #0a0c39 60%);
   transition: all 0.8s ease;
   background-position: 0px;
   background-size: 200px;
@@ -76,7 +76,7 @@
 }
 
 .in-card:hover .card-img svg path {
-  fill: var(--dorange);
+  fill: #1479f2;
 }
 
 @media (max-width: 481px) {

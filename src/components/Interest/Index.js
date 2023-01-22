@@ -6,7 +6,7 @@ const Interests = () => {
     <div className="interests">
       <div className="in-head">
         <p>
-          Things <span style={{ color: "var(--yellow)" }}>I</span> Love
+          My <span style={{ color: "#B1AAFE" }}>Services</span>
         </p>
       </div>
       <div className="in-cards">
@@ -14,46 +14,114 @@ const Interests = () => {
           <section className="card-img">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="45"
-              height="30"
-              viewBox="0 0 315 210"
+              x="0px"
+              y="0px"
+              width="64"
+              height="64"
+              viewBox="0,0,256,256"
             >
-              <path
-                fill="#FFF"
-                stroke="#FFF"
-                d="M87.5 49q4.8-.7 6.5 1.5l-3.5.5h-2l-3.5-.5 2.5-1.5zM110.5 91l6.5.5-6.5.5v-1zM235.5 104l.5 3.5h-1l.5-3.5z"
-                opacity="0.055"
-              ></path>
-              <path
-                fill="#FFF"
-                stroke="#FFF"
-                d="M81.5 1h12l15 3 11 4 25 14h27l36-18 15-3h13l10 2 10 4q12.7 6.8 21.5 17.5 11.2 13.8 19 31l11 30 6 29 1 38-1 1v13l-3 17-4 11-8.5 9.5q-6.2 5.3-18 5l-5-1-15-9-32.5-31.5-10.5-11.5-5-2h-107q-8.1 2.9-12.5 9.5L67.5 190l-21 16-9 3h-5q-13-2-19.5-10.5l-4-7-5-20-2-35 1-1 1-25 2-4v-2l1-4v-2q-1-5 2-6v-2Q19.6 41.1 51.5 13l14-8 16-4zM88 49l-5 3-2 1v20l-1 1H59l-2 7 2 10 2 1h19l1 2v19l6 2q7 1 10-2h1V94l2-2h19l2-1 2-6q1-7-2-9l-1-2h-19l-2-1V52l-7-3h-4zm116 7l-3 1-5 6 1 9 6 4h7l3-2 3-5-1-7-6-6h-5zm39 0l-2 1-6 8q0 6 3 9l5 2 8-1q4-3 5-8l-2-6q-3-6-11-5zm-36 39l-6 2q-5 3-6 10l3 6 7 3q6 1 8-2l3-8-1-4-8-7zm36 1l-2 1-6 8v3l3 6 5 2 8-1q4-3 5-9l-4-9-9-1z"
-              ></path>
+              <defs>
+                <linearGradient
+                  x1="41.5"
+                  y1="24.092"
+                  x2="41.5"
+                  y2="41.092"
+                  gradientUnits="userSpaceOnUse"
+                  id="color-1_8EbY3Bnfw0aL_gr1"
+                >
+                  <stop offset="0" stop-color="#fffdfd"></stop>
+                  <stop offset="1" stop-color="#fffefe"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="31.5"
+                  y1="5.092"
+                  x2="31.5"
+                  y2="59.092"
+                  gradientUnits="userSpaceOnUse"
+                  id="color-2_8EbY3Bnfw0aL_gr2"
+                >
+                  <stop offset="0" stop-color="#fffdfd"></stop>
+                  <stop offset="1" stop-color="#fffefe"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="42.159"
+                  y1="29.41"
+                  x2="42.159"
+                  y2="37.092"
+                  gradientUnits="userSpaceOnUse"
+                  id="color-3_8EbY3Bnfw0aL_gr3"
+                >
+                  <stop offset="0" stop-color="#f9fdff"></stop>
+                  <stop offset="1" stop-color="#fffeff"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="23"
+                  y1="49.123"
+                  x2="23"
+                  y2="55.046"
+                  gradientUnits="userSpaceOnUse"
+                  id="color-4_8EbY3Bnfw0aL_gr4"
+                >
+                  <stop offset="0" stop-color="#f9fdff"></stop>
+                  <stop offset="1" stop-color="#fffeff"></stop>
+                </linearGradient>
+                <linearGradient
+                  x1="23.029"
+                  y1="9.092"
+                  x2="23.029"
+                  y2="14.092"
+                  gradientUnits="userSpaceOnUse"
+                  id="color-5_8EbY3Bnfw0aL_gr5"
+                >
+                  <stop offset="0" stop-color="#f9fdff"></stop>
+                  <stop offset="1" stop-color="#fffeff"></stop>
+                </linearGradient>
+              </defs>
+              <g
+                fill="none"
+                fill-rule="nonzero"
+                stroke="none"
+                stroke-width="1"
+                stroke-linecap="butt"
+                stroke-linejoin="miter"
+                stroke-miterlimit="10"
+                stroke-dasharray=""
+                stroke-dashoffset="0"
+                font-family="none"
+                font-weight="none"
+                font-size="none"
+                text-anchor="none"
+              >
+                <g transform="scale(4,4)">
+                  <path
+                    d="M41.5,24.092c-4.687,0 -8.5,3.813 -8.5,8.5c0,4.687 3.813,8.5 8.5,8.5c4.687,0 8.5,-3.813 8.5,-8.5c0,-4.687 -3.813,-8.5 -8.5,-8.5zM41.5,39.092c-3.584,0 -6.5,-2.916 -6.5,-6.5c0,-3.584 2.916,-6.5 6.5,-6.5c3.584,0 6.5,2.916 6.5,6.5c0,3.584 -2.916,6.5 -6.5,6.5z"
+                    fill="url(#color-1_8EbY3Bnfw0aL_gr1)"
+                  ></path>
+                  <path
+                    d="M40.56,24.092c5.206,0 9.44,-4.249 9.44,-9.471c0,-5.255 -4.235,-9.529 -9.44,-9.529h-7.675h-1.77h-8.675c-5.206,0 -9.44,4.248 -9.44,9.47c0,3.74 2.151,6.975 5.265,8.534c-3.116,1.555 -5.265,4.761 -5.265,8.466c0,3.769 2.197,7.025 5.368,8.57c-3.205,1.621 -5.368,4.99 -5.368,8.984c0,5.501 4.476,9.977 9.977,9.977c5.526,-0.001 10.023,-4.498 10.023,-10.025v-7.976v-2v-6.5v-8.5zM15,14.562c0,-4.119 3.338,-7.47 7.44,-7.47h8.56v15h-8.505h-0.055c-4.102,0 -7.44,-3.378 -7.44,-7.53zM31,49.068c0,4.425 -3.599,8.024 -8.023,8.024c-4.398,0 -7.977,-3.578 -7.977,-7.977c0,-4.499 3.395,-8.023 7.729,-8.023h8.271zM31,39.092h-8.271h-0.234c-4.132,0 -7.495,-3.378 -7.495,-7.53c0,-4.119 3.362,-7.47 7.495,-7.47h8.505zM33,22.092v-15h7.56c4.103,0 7.44,3.378 7.44,7.529c0,4.119 -3.338,7.471 -7.44,7.471z"
+                    fill="url(#color-2_8EbY3Bnfw0aL_gr2)"
+                  ></path>
+                  <path
+                    d="M44.682,29.41l-6.364,6.364c1.757,1.757 4.607,1.757 6.364,0c1.757,-1.757 1.757,-4.606 0,-6.364z"
+                    fill="url(#color-3_8EbY3Bnfw0aL_gr3)"
+                  ></path>
+                  <path
+                    d="M17,49.154c0,3.254 2.679,5.892 5.984,5.892c3.305,0 6.016,-2.669 6.016,-5.923z"
+                    fill="url(#color-4_8EbY3Bnfw0aL_gr4)"
+                  ></path>
+                  <path
+                    d="M22.5,9.092c-2.869,0 -5.225,2.197 -5.478,5h12.013v-5z"
+                    fill="url(#color-5_8EbY3Bnfw0aL_gr5)"
+                  ></path>
+                </g>
+              </g>
             </svg>
           </section>
-          <p className="card-title">Games</p>
+          <p className="card-title">UI/UX Designer</p>
+          <p className="card-text">Develop the user interface</p>
+          <p className="card-text">Create mockups</p>
           <p className="card-text">
-            I love to play games, either that is PVP of Storymode
-          </p>
-        </div>
-        <div className="in-card">
-          <section className="card-img">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="35"
-              height="35"
-              viewBox="0 0 265 265"
-            >
-              <path
-                fill="#FFF"
-                stroke="#FFF"
-                d="M0 0h265v265H0V0zm194 120q-11 2-18 8-7 5-10 14l-2 10 2 14 8 13 9 6 30 14q7 3 5 15-3 6-11 7h-10l-9-4-10-11-21 13 5 8 14 11 19 6q24 2 37-8 9-7 12-20v-14l-6-14-13-12-30-14-5-5 1-9q3-5 10-6l9 2 8 9 19-12-4-7q-11-16-39-14zm-75 1v90l-2 6-7 4q-8 1-11-2l-8-11-21 13 3 7q9 13 28 16 22 2 33-8 6-6 9-14l2-10v-91h-26z"
-              ></path>
-            </svg>
-          </section>
-          <p className="card-title">Javascript</p>
-          <p className="card-text">
-            I extremely love to code in Javascript, it's fun
+            Make wireframe, storyboard & screens flows
           </p>
         </div>
         <div className="in-card">
@@ -72,10 +140,10 @@ const Interests = () => {
               ></path>
             </svg>
           </section>
-          <p className="card-title">Coding</p>
-          <p className="card-text">
-            I love to code in differnt languages in free time
-          </p>
+          <p className="card-title">Frontend Web Developer</p>
+          <p className="card-text">Implement the mockup into the website</p>
+          <p className="card-text">Implement website design concept</p>
+          <p className="card-text">Create design elemts for applications</p>
         </div>
       </div>
     </div>
