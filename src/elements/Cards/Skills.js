@@ -71,23 +71,6 @@ const SCards = styled.div`
   place-items: center;
   cursor: default;
 
-  &:before {
-    content: "";
-    position: absolute;
-    width: 465px;
-    height: 35px;
-    top: -40px;
-    right: 100px;
-    background: linear-gradient(50deg, var(--dorange), var(--orange));
-    transition: 1.9s;
-    transform: rotate(-45deg);
-  }
-
-  &:hover::before {
-    top: 335px;
-    right: -260px;
-  }
-
   @media (max-width: 481px) {
     position: relative;
     &:before {

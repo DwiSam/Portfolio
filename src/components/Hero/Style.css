@@ -1,6 +1,6 @@
 .hero {
   margin: 0 5.5rem 8rem;
-  padding-top: 10rem;
+  padding-top: 8rem;
   display: flex;
 }
 
@@ -57,6 +57,11 @@
 }
 
 @media (max-width: 481px) {
+  img {
+    height: 200px;
+    width: 200px;
+  }
+
   .hero {
     display: block;
     margin: 8rem 1.4rem 1rem;
@@ -73,11 +78,17 @@
 
   .h-info {
     font-size: 1rem;
+    font-weight: normal;
   }
 
   .h-connect {
     justify-content: center;
     margin: 3rem;
+  }
+
+  .logos {
+    height: 40px;
+    width: 40px;
   }
 
   .h-box {
