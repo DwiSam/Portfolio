@@ -1,28 +1,67 @@
-import React, { useRef } from "react";
+import React, { useState, useRef } from "react";
 import "./Style.css";
-import emailjs from "@emailjs/browser";
+import emailjs from "emailjs-com";
+import { validateEmail } from "../../utils/Helper";
 
 const Contact = () => {
+  const [formState, setFormState] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+  const { name, email, message } = formState;
+  const [errorMessage, setErrorMessage] = useState("");
+
+  function handleChange(e) {
+    if (e.target.name === "email") {
+      const isValid = validateEmail(e.target.value);
+      console.log(isValid);
+      if (!isValid) {
+        setErrorMessage("A valid email address is required.");
+      } else {
+        setErrorMessage("");
+      }
+    } else {
+      if (!e.target.value.length) {
+        setErrorMessage(`${e.target.name} is required`);
+      } else {
+        setErrorMessage("");
+      }
+    }
+    if (!errorMessage) {
+      setFormState({ ...formState, [e.target.name]: e.target.value });
+    }
+  }
+
   const form = useRef();
 
-  const sendEmail = (e) => {
+  const sendEmail = async (e) => {
     e.preventDefault();
 
     emailjs
       .sendForm(
-        "service_b9p7gtd",
-        "template_mpx8yaf",
+        "service_ojdnvzp",
+        "template_pfny3q7",
         form.current,
-        "fPqcrL4Dtgwc5UTRQ"
+        "sXBZoSzco5PV7qrW2"
       )
+
       .then(
         (result) => {
           console.log(result.text);
+          alert("Thank you. Your message has been sent.");
         },
         (error) => {
           console.log(error.text);
         }
       );
+
+    setFormState({
+      name: "",
+      email: "",
+      message: "",
+    });
+    e.target.reset();
   };
 
   return (
@@ -40,6 +79,8 @@ const Contact = () => {
               className="c-user"
               placeholder="Your Full Name"
               required
+              defaultValue={name}
+              onBlur={handleChange}
             />
             <input
               type="email"
@@ -48,15 +89,20 @@ const Contact = () => {
               className="c-user"
               placeholder="Your Email"
               required
+              defaultValue={email}
+              onBlur={handleChange}
             />
             <textarea
               id="textArea"
               rows="3"
               className="c-user"
               placeholder="Your Message"
+              defaultValue={message}
+              onBlur={handleChange}
               style={{ height: 80 }}
             ></textarea>
-            <button onClick={sendEmail}>Send a Message</button>
+
+            <button type="submit">Send a Message</button>
           </form>
         </div>
       </div>
