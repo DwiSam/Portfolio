@@ -42,6 +42,13 @@ const Projects = () => {
           <Swiper {...params}>
             <SwiperSlide>
               <Cards
+                p_name={"Career Paths"}
+                p_details={"IT Career recomendation"}
+                p_link={"https://github.com/DwiSam/Career-Paths"}
+              />
+            </SwiperSlide>
+            <SwiperSlide>
+              <Cards
                 p_name={"Portfolio Project"}
                 p_details={"My Portfolio written using ReactJS"}
                 p_link={"https://github.com/DwiSam/Portfolio"}

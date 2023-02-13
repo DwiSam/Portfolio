@@ -1,9 +1,9 @@
 import React from "react";
 import "./Style.css";
-import pp from "../assets/Images/pp.png";
-import github from "../assets/Images/github.png";
-import linkedin from "../assets/Images/linkedin.png";
-import telegram from "../assets/Images/telegram.png";
+import pp from "../../assets/Images/pp.png";
+import github from "../../assets/Images/github.png";
+import linkedin from "../../assets/Images/linkedin.png";
+import telegram from "../../assets/Images/telegram.png";
 import CTA from "../../elements/Button/CTA";
 
 const Hero = () => {
@@ -14,9 +14,10 @@ const Hero = () => {
           <p style={{ fontSize: "1.25rem" }}>Hello, there</p>
           <p className="name">I am Dwi Samsiarto</p>
           <p className="h-info">
-            I am an undergraduate student in Institut Teknologi PLN - Jakarta
+            I am an undergraduate student in IT PLN - Jakarta
             <br />I have a strong interest in UI/UX and Front End Developer
           </p>
+
           <button>
             <CTA />
           </button>

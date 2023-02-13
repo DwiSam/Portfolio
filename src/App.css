@@ -1,31 +1,14 @@
-@font-face {
-  font-family: Gumela;
-  src: url("./components/assets/Fonts/Gumela_Regular.otf");
-}
-
 * {
   color: rgb(255 255 255);
   padding: 0;
   margin: 0;
   -webkit-tap-highlight-color: transparent;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 body {
   font-family: "Gumela";
   background-color: #05092c;
-}
-
-:root {
-  --yellow: #f5c32c;
-  --orange: #fca61f;
-  --dorange: #e18e0c;
-  --gray: rgb(17 24 39);
-  --dgray: rgb(27 32 45);
-}
-
-ul {
-  list-style: none;
-  margin: 0;
 }
 
 a {
