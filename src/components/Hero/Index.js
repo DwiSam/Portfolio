@@ -14,8 +14,9 @@ const Hero = () => {
           <p style={{ fontSize: "1.25rem" }}>Hello, there</p>
           <p className="name">I am Dwi Samsiarto</p>
           <p className="h-info">
-            I am an undergraduate student in IT PLN - Jakarta
-            <br />I have a strong interest in UI/UX and Front End Developer
+            I am an final year student of informatics engineering in Institut
+            Teknologi PLN - West Jakarta. I have a strong interest in UI/UX and
+            Front End Developer.
           </p>
 
           <button>
