@@ -1,4 +1,5 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
 import "./Style.css";
 import Cards from "../../elements/Cards/Projects";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -38,85 +39,87 @@ const Projects = () => {
           <p style={{ color: "#b1aafe", marginTop: "0.5rem" }}>Projects</p>
         </div>
 
-        <div className="cards">
-          <Swiper {...params}>
-            <SwiperSlide>
-              <Cards
-                p_name={"Career Paths"}
-                p_details={"IT Career recomendation"}
-                p_link={"https://github.com/DwiSam/Career-Paths"}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"Portfolio Project"}
-                p_details={"My Portfolio written using ReactJS"}
-                p_link={"https://github.com/DwiSam/Portfolio"}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"NewsInd"}
-                p_details={"News portal using ReactJS"}
-                p_link={
-                  "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-1"
-                }
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"Bukapedia"}
-                p_details={"E-Commerce using ReactJS"}
-                p_link={
-                  "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-2"
-                }
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"Travelin"}
-                p_details={"Mobile Apps using React Native"}
-                p_link={
-                  "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-3"
-                }
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"MoviesInd"}
-                p_details={"Imdb clone using ReactJs"}
-                p_link={
-                  "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-4"
-                }
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"Calculator"}
-                p_details={"calculator using ReactJS"}
-                p_link={
-                  "https://github.com/DwiSam/kalkulatorSederhana.github.io"
-                }
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"To Do List App"}
-                p_details={"To Do List using ReactJs"}
-                p_link={"https://github.com/DwiSam/todolist-app.github.io"}
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <Cards
-                p_name={"KenaliAku"}
-                p_details={"interest-aptitude test using ReactJs"}
-                p_link={
-                  "https://github.com/DwiSam/final-project-engineering-51"
-                }
-              />
-            </SwiperSlide>
-          </Swiper>
-        </div>
+        <Fade right cascade>
+          <div className="cards">
+            <Swiper {...params}>
+              <SwiperSlide>
+                <Cards
+                  p_name={"Career Paths"}
+                  p_details={"IT Career recomendation"}
+                  p_link={"https://github.com/DwiSam/Career-Paths"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"Portfolio Project"}
+                  p_details={"My Portfolio written using ReactJS"}
+                  p_link={"https://github.com/DwiSam/Portfolio"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"NewsInd"}
+                  p_details={"News portal using ReactJS"}
+                  p_link={
+                    "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-1"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"Bukapedia"}
+                  p_details={"E-Commerce using ReactJS"}
+                  p_link={
+                    "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-2"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"Travelin"}
+                  p_details={"Mobile Apps using React Native"}
+                  p_link={
+                    "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-3"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"MoviesInd"}
+                  p_details={"Imdb clone using ReactJs"}
+                  p_link={
+                    "https://github.com/DwiSam/Final_Project_Kel5/tree/main/final-project-4"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"Calculator"}
+                  p_details={"calculator using ReactJS"}
+                  p_link={
+                    "https://github.com/DwiSam/kalkulatorSederhana.github.io"
+                  }
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"To Do List App"}
+                  p_details={"To Do List using ReactJs"}
+                  p_link={"https://github.com/DwiSam/todolist-app.github.io"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
+                  p_name={"KenaliAku"}
+                  p_details={"interest-aptitude test using ReactJs"}
+                  p_link={
+                    "https://github.com/DwiSam/final-project-engineering-51"
+                  }
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
+        </Fade>
       </div>
     </section>
   );

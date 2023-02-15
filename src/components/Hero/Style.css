@@ -24,25 +24,8 @@
   margin: 3.5rem 0;
 }
 
-@keyframes slideFromUp {
-  0% {
-    -webkit-transform: translateY(-50px);
-    -ms-transform: translateY(-50px);
-    transform: translateY(-50px);
-  }
-
-  100% {
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
-
 .h-left {
   flex: 1.5;
-  padding: 0px 0px 0px 50px;
-  animation: 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s 1 normal forwards
-    running slideFromUp;
 }
 
 .h-right {
