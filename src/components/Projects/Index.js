@@ -1,5 +1,5 @@
 import React from "react";
-import Fade from "react-reveal/Fade";
+import { Slide } from "react-awesome-reveal";
 import "./Style.css";
 import Cards from "../../elements/Cards/Projects";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const params = {
   pagination: {
-    dynamicBullets: true,
+    dynamicBullets: false,
   },
   modules: [Pagination],
   grabCursor: true,
@@ -39,7 +39,7 @@ const Projects = () => {
           <p style={{ color: "#b1aafe", marginTop: "0.5rem" }}>Projects</p>
         </div>
 
-        <Fade right cascade>
+        <Slide right>
           <div className="cards">
             <Swiper {...params}>
               <SwiperSlide>
@@ -119,7 +119,7 @@ const Projects = () => {
               </SwiperSlide>
             </Swiper>
           </div>
-        </Fade>
+        </Slide>
       </div>
     </section>
   );

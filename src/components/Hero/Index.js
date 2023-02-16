@@ -1,6 +1,6 @@
 import React from "react";
 import "./Style.css";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 import pp from "../../assets/Images/pp.png";
 import github from "../../assets/Images/github.png";
 import linkedin from "../../assets/Images/linkedin.png";
