@@ -9,7 +9,7 @@ import "swiper/css/pagination";
 
 const params = {
   pagination: {
-    dynamicBullets: false,
+    dynamicBullets: true,
   },
   modules: [Pagination],
   grabCursor: true,
