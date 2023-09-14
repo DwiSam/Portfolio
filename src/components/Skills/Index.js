@@ -38,6 +38,8 @@ const Skills = () => {
             w2={"60%"}
             l3={"UX Design"}
             w3={"45%"}
+            l4={"Figma"}
+            w4={"80%"}
           />
         </div>
         <ParallaxProvider>
@@ -55,6 +57,7 @@ const Skills = () => {
               <p>Rract JS</p>
               <p>Laravel</p>
               <p>Chakra-UI</p>
+              <p>Tailwind</p>
             </div>
           </Parallax>
         </ParallaxProvider>

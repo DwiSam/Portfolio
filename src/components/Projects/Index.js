@@ -44,9 +44,16 @@ const Projects = () => {
             <Swiper {...params}>
               <SwiperSlide>
                 <Cards
+                  p_name={"Permata Kubah"}
+                  p_details={"Selling dome products"}
+                  p_link={"https://permatakubah.com/"}
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <Cards
                   p_name={"Career Paths"}
                   p_details={"IT Career recomendation"}
-                  p_link={"https://github.com/DwiSam/Career-Paths"}
+                  p_link={"https://rekomendasi-itprofesi.com/"}
                 />
               </SwiperSlide>
               <SwiperSlide>
