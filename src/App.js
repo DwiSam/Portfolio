@@ -1,19 +1,18 @@
-import "./App.css";
-import Hero from "./components/Hero/Index";
-import Skills from "./components/Skills/Index";
-import Services from "./components/Services/Index";
-import Projects from "./components/Projects/Index";
-import Contact from "./components/Contact/Index";
-import Nav from "./components/Navigations/Index";
+import Hero from "./components/Hero";
+import Qualification from "./components/Qualification";
+import Project from "./components/Projects";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Nav from "./components/Navigations";
 
 function App() {
   return (
     <div className="App">
       <Nav />
       <Hero />
+      <Qualification />
       <Skills />
-      <Services />
-      <Projects />
+      <Project />
       <Contact />
     </div>
   );

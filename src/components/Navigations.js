@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import "./Style.css";
 import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBook, BiMessageSquareDetail } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { BiBook, BiMessageSquareDetail, BiExtension } from "react-icons/bi";
+
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
@@ -17,6 +16,15 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a
+        href="#qualifications"
+        onClick={() => {
+          setActiveNav("#qualifications");
+        }}
+        className={activeNav === "#qualifications" ? "active" : ""}
+      >
+        <BiExtension />
+      </a>
+      <a
         href="#skills"
         onClick={() => {
           setActiveNav("#skills");
@@ -25,15 +33,7 @@ const Nav = () => {
       >
         <AiOutlineUser />
       </a>
-      <a
-        href="#services"
-        onClick={() => {
-          setActiveNav("#services");
-        }}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
-      </a>
+
       <a
         href="#projects"
         onClick={() => {
