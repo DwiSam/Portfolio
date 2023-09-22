@@ -16,10 +16,6 @@ code {
     monospace;
 }
 
-.react-responsive-carousel .carousel-root {
-  cursor: pointer;
-}
-
 ::-webkit-scrollbar {
   display: none;
 }

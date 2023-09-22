@@ -46,8 +46,8 @@ export default function Project() {
                 style={{
                   position: "absolute",
                   zIndex: 2,
-                  top: "50%",
-                  left: 40,
+                  top: "40%",
+                  left: 0,
                   color: "black",
                   background: "none",
                   border: "none",
@@ -68,8 +68,8 @@ export default function Project() {
                 style={{
                   position: "absolute",
                   zIndex: 2,
-                  top: "50%",
-                  right: 40,
+                  top: "40%",
+                  right: 0,
                   color: "black",
                   background: "none",
                   border: "none",

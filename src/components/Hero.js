@@ -53,11 +53,12 @@ export default function Hero() {
               <div>
                 <div className="text-center lg:text-left">
                   <h1 className="max-w-lg px-2 text-4xl font-bold leading-snug sm:text-5xl sm:leading-snug">
-                    Hello, there <br />
-                    <span className="px-2 pb-2 text-purple-600">
-                      I am Dwi Samsiarto
-                    </span>
+                    Hello, there
                   </h1>
+                  <h1 className="max-w-lg px-2 text-4xl text-purple-600 font-bold leading-snug sm:text-5xl sm:leading-snug animate-typing overflow-hidden whitespace-nowrap">
+                    I am Dwi Samsiarto
+                  </h1>
+
                   <p className="mt-2 pl-2 text-lg text-gray-600 sm:mt-8">
                     I am a fresh graduate of informatics engineering in Institut
                     Teknologi PLN - West Jakarta. I have a strong interest in
@@ -96,7 +97,7 @@ export default function Hero() {
                           <path d="M14.707 7.793a1 1 0 0 0-1.414 0L11 10.086V1.5a1 1 0 0 0-2 0v8.586L6.707 7.793a1 1 0 1 0-1.414 1.414l4 4a1 1 0 0 0 1.416 0l4-4a1 1 0 0 0-.002-1.414Z" />
                           <path d="M18 12h-2.55l-2.975 2.975a3.5 3.5 0 0 1-4.95 0L4.55 12H2a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2Zm-3 5a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z" />
                         </svg>{" "}
-                        Download ZIP
+                        Download CV
                       </a>
                     </button>
                     <button className="mt-4 flex items-center rounded-lg border-2 border-purple-600 px-6 py-2 font-medium text-purple-600 hover:bg-white">

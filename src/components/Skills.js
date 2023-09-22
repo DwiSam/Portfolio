@@ -28,9 +28,9 @@ function Skills() {
           class="grid grid-cols-1 gap-5 p-2 sm:grid-cols-2 sm:p-6 lg:grid-cols-3"
           data-aos="zoom-in"
         >
-          <div class="max-w-md rounded-xl border bg-white p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
+          <div class="max-w-md rounded-xl border bg-primary p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
             <p class="text-lg font-medium">UI/UX Design</p>
-            <div class="mt-4 flex items-center rounded-lg  py-1 px-2 text-gray-600">
+            <div class=" mt-4 flex items-center rounded-lg  py-1 px-2 text-gray-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="mr-2 h-6 w-6 shrink-0 text-indigo-600"
@@ -83,7 +83,7 @@ function Skills() {
             </div>
           </div>
 
-          <div class="max-w-md rounded-xl border bg-white p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
+          <div class="max-w-md rounded-xl border bg-primary p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
             <p class="text-lg font-medium">Front End Developer</p>
             <div class="mt-4 flex items-center rounded-lg  py-1 px-2 text-gray-600">
               <svg
@@ -155,7 +155,7 @@ function Skills() {
             </div>
           </div>
 
-          <div class="max-w-md rounded-xl border bg-white p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
+          <div class="max-w-md rounded-xl border bg-primary p-6 pb-10 text-gray-900 border-b-4 border-blue-200 shadow">
             <p class="text-lg font-medium">Soft Skills</p>
             <div class="mt-4 flex items-center rounded-lg  py-1 px-2 text-gray-600">
               <svg
