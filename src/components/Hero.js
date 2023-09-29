@@ -55,7 +55,7 @@ export default function Hero() {
                   <h1 className="max-w-lg px-2 text-4xl font-bold leading-snug sm:text-5xl sm:leading-snug">
                     Hello, there
                   </h1>
-                  <h1 className="max-w-lg px-2 text-4xl text-purple-600 font-bold leading-snug sm:text-5xl sm:leading-snug animate-typing overflow-hidden whitespace-nowrap">
+                  <h1 className="max-w-lg px-2 text-4xl bg-gradient-to-b from-[#E7DDF9] to-purple-600 bg-clip-text text-transparent font-bold leading-snug sm:text-5xl sm:leading-snug animate-typing overflow-hidden whitespace-nowrap">
                     I am Dwi Samsiarto
                   </h1>
 
