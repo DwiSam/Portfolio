@@ -109,7 +109,7 @@ export default function Hero() {
 
               <div className="relative bg-transparent flex flex-col items-center justify-center">
                 <img
-                  className="h-[350px] lg:h-[550px] relative"
+                  className="h-[315px] lg:h-[550px] relative"
                   src={Photo}
                   alt="Hero"
                   frameborder="0"

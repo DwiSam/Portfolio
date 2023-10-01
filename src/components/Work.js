@@ -86,6 +86,35 @@ export default function Works() {
             </div>
             <div>
               <h2 class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-900 bg-secondary rounded-3xl ">
+                September 2022 - December 2022
+              </h2>
+              <div class="md:w-[650px] relative flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow  rounded-3xl ">
+                <div class="relative z-20 p-6">
+                  <p class="mb-2 text-xl font-bold text-gray-900 ">
+                    UI Designer - Information Retrieval Lab.
+                  </p>
+                  <p class="text-gray-600">
+                    <ul className="max-w-md space-y-1 list-disc list-inside">
+                      <li>
+                        mockup design, user interface design and prototyping.
+                      </li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative flex justify-between" data-aos="fade-down">
+            <div class="flex flex-col items-center w-10 mr-4 md:w-24">
+              <div>
+                <div class="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full ">
+                  <div class="w-4 h-4 bg-blue-600 rounded-full "></div>
+                </div>
+              </div>
+              <div class="w-px h-full bg-blue-300 "></div>
+            </div>
+            <div>
+              <h2 class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-900 bg-secondary rounded-3xl ">
                 March 2023 - August 2023
               </h2>
               <div class="md:w-[650px] relative flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow  rounded-3xl ">
@@ -97,6 +126,38 @@ export default function Works() {
                     <ul className="max-w-md space-y-1 list-disc list-inside">
                       <li>assisting lecturers dissertation research.</li>
                       <li>create a personality type test website.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative flex justify-between" data-aos="fade-down">
+            <div class="flex flex-col items-center w-10 mr-4 md:w-24">
+              <div>
+                <div class="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full ">
+                  <div class="w-4 h-4 bg-blue-600 rounded-full "></div>
+                </div>
+              </div>
+              <div class="w-px h-full bg-blue-300 "></div>
+            </div>
+            <div>
+              <h2 class="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-900 bg-secondary rounded-3xl ">
+                September 2023 - Oktober 2023
+              </h2>
+              <div class="md:w-[650px] relative flex-1 mb-10 bg-white border-b-4 border-blue-200 shadow  rounded-3xl ">
+                <div class="relative z-20 p-6">
+                  <p class="mb-2 text-xl font-bold text-gray-900 ">
+                    Front End Developer (Freelance) - Permata Kubah
+                  </p>
+                  <p class="text-gray-600">
+                    <ul className="max-w-md space-y-1 list-disc list-inside">
+                      <li>designing user interface.</li>
+                      <li>
+                        slicing user interface design into code using react js
+                        and tailwind.
+                      </li>
+                      <li>manage website seo and register it google ads.</li>
                     </ul>
                   </p>
                 </div>

@@ -18,7 +18,7 @@ export default function Project() {
           <div class="text-center ">
             <div class="relative flex flex-col items-center">
               <div class="absolute hidden md:block -top-14 left-0 text-[120px] text-gray-400 font-bold opacity-10">
-                Project
+                Projects
               </div>
               <h1 class="text-5xl font-bold ">
                 {" "}

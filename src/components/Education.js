@@ -57,6 +57,7 @@ export default function Educations() {
                     <ul className="max-w-md space-y-1 list-disc list-inside">
                       <li>Co-Facilitator</li>
                       <li>Computer Laboratory Assistant</li>
+                      <li>UI Designer Internship</li>
                       <li>Assistant Lecturer</li>
                     </ul>
                   </p>
