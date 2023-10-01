@@ -1,3 +1,4 @@
+import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -6,6 +7,42 @@ import CV from "../assets/Files/CV - Dwi Samsiarto.pdf";
 
 export default function Hero() {
   AOS.init({ duration: 1000 });
+
+  const texts = [
+    "I am Dwi Samsiarto",
+    "I have a strong interest in UI/UX and Front End Developer.",
+  ];
+  const typingSpeed = 100;
+  const [typedText, setTypedText] = useState("");
+  const [currentTextIndex, setCurrentTextIndex] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+
+  useEffect(() => {
+    let timer;
+    if (currentTextIndex < texts.length) {
+      const text = texts[currentTextIndex];
+
+      timer = setTimeout(() => {
+        if (isDeleting) {
+          setTypedText((prevText) => prevText.slice(0, -1));
+          if (typedText === "") {
+            setIsDeleting(false);
+            setCurrentTextIndex((prevIndex) =>
+              prevIndex === texts.length - 1 ? 0 : prevIndex + 1
+            );
+          }
+        } else {
+          setTypedText((prevText) => text.slice(0, prevText.length + 1));
+          if (typedText === text) {
+            setIsDeleting(true);
+          }
+        }
+      }, typingSpeed);
+    }
+
+    return () => clearTimeout(timer);
+  }, [typedText, currentTextIndex, isDeleting, texts]);
+
   return (
     <div className="relative isolate overflow-hidden bg-white px-6 py-16 sm:py-18 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
@@ -53,16 +90,15 @@ export default function Hero() {
               <div>
                 <div className="text-center lg:text-left">
                   <h1 className="max-w-lg px-2 text-4xl font-bold leading-snug sm:text-5xl sm:leading-snug">
-                    Hello, there
+                    Hello, there <br />
                   </h1>
-                  <h1 className="max-w-lg px-2 text-4xl bg-gradient-to-b from-[#E7DDF9] to-purple-600 bg-clip-text text-transparent font-bold leading-snug sm:text-5xl sm:leading-snug animate-typing overflow-hidden whitespace-nowrap">
-                    I am Dwi Samsiarto
+                  <h1 className="max-w-lg px-2 text-4xl bg-gradient-to-b from-[#E7DDF9] to-purple-600 bg-clip-text text-transparent font-bold leading-snug sm:text-5xl sm:leading-snug ">
+                    {typedText}
                   </h1>
 
                   <p className="mt-2 pl-2 text-lg text-gray-600 sm:mt-8">
                     I am a fresh graduate of informatics engineering in Institut
-                    Teknologi PLN - West Jakarta. I have a strong interest in
-                    UI/UX and Front End Developer.
+                    Teknologi PLN - West Jakarta.
                   </p>
                   <div className="mt-8 pl-2 flex flex-col items-center justify-center sm:flex-row sm:space-x-4 lg:justify-start">
                     <button className="relative mt-4 rounded-lg border-2 border-purple-600 bg-purple-600 px-6 py-2 font-medium text-white shadow-sky-300 outline-none transition duration-200 hover:scale-110 focus:ring">
