@@ -44,7 +44,7 @@ export default function Hero() {
   }, [typedText, currentTextIndex, isDeleting, texts]);
 
   return (
-    <div className="relative isolate overflow-hidden bg-white px-6 py-16 sm:py-18 lg:overflow-visible lg:px-0">
+    <div className="relative h-[950px] overflow-hidden bg-white px-6 py-16 sm:py-18 lg:overflow-visible lg:px-0">
       <div className="absolute inset-0 -z-10 overflow-hidden">
         <div
           className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80"

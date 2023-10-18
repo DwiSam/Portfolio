@@ -63,3 +63,14 @@ nav a.active {
   background: var(--color-primary);
   color: var(--color-bg);
 }
+
+/* CSS untuk mengontrol overflow dan pemosisian konten di dalam komponen Hero */
+.hero-content {
+  overflow: hidden; /* Mengontrol overflow konten */
+}
+
+.hero-image {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
